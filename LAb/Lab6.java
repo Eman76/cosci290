@@ -10,9 +10,16 @@
   2. Make sure your program is free of errors and runs.
   2. Answer the following questions:
      a. What is the name of this class?
+     The name of this class is Lab6
+     
      b. What is the name of this file?
+     The name of this file is Lab6.java
+     
      c. What is the difference between a class name and a file name?
+     A class name is just the name of the application the file name is what its saved as.
+     
      d. What is the difference between importing Scanner and instantiating Scanner?
+     When you import the scanner you just make sure the user can input something. Instantiating the scanner means starting it up inside of the class application.
      
    Sample output of running this program:
    
@@ -46,10 +53,11 @@ public class Lab6{
       using Scanner, which is called input, get the int from user input, 
       then assign it to the num variable
     */
-    num = input.nextInt;
+    num = input.nextInt();
+   
     
     //add num to 5 and assign this to sum
-    System.out.println(num + 5);
+     sum = num + 5;
     
     //prompt the user with the sum
     System.out.println("The sum of " + num + " and 5 is " + sum);
